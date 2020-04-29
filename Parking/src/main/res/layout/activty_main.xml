@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_account_circle_black_48dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:textSize="10dp"
+            android:text="사용자 정보"/>
+
+        <TextView
+            android:id="@+id/textview_useremail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="User Email"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textview_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="User Name"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textview_usercarnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="Car Num"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="fill"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill">
+
+            <ImageButton
+                android:layout_width="64pt"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/ic_directions_car_black_48dp"
+                android:id="@+id/imagebutton_entrance_car"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="차량 입차"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="fill"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill">
+
+            <ImageButton
+                android:layout_width="64pt"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/ic_directions_car_black_48dp"
+                android:id="@+id/imagebutton_exit_car"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="차량 출차"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="fill"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill">
+
+            <ImageButton
+                android:layout_width="64pt"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/ic_settings_black_48dp"
+                android:id="@+id/imagebutton_setting"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="설정"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="fill"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill">
+
+            <ImageButton
+                android:layout_width="64pt"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/ic_power_settings_new_black_48dp"
+                android:id="@+id/imagebutton_exit_app"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="로그아웃"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </GridLayout>
+</LinearLayout>
