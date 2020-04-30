@@ -16,4 +16,22 @@ https://github.com/64byte/Parking-Management/blob/master/document/%EC%9A%94%EA%B
 
 https://github.com/64byte/Parking-Management/blob/master/document/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%84%A4%EA%B3%84%EC%84%9C.pdf
 
-### 코드
+### 소스 코드
+----------------------------------------------
+
+  * 안드로이드
+  
+  * nodejs (API 서버)
+    * models
+      * car: https://github.com/64byte/Parking-Management/blob/master/server/models/car.js
+      * user: https://github.com/64byte/Parking-Management/blob/master/server/models/user.js
+      * usinginfo: https://github.com/64byte/Parking-Management/blob/master/server/models/usinginfo.js
+      
+    * routers
+      https://github.com/64byte/Parking-Management/blob/master/server/routes/index.js
+      
+    * main (entry point)
+      https://github.com/64byte/Parking-Management/blob/master/server/app.js
+
+### 구현 화면
+----------------------------------------------
