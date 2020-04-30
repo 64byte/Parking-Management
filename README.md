@@ -19,7 +19,19 @@ https://github.com/64byte/Parking-Management/blob/master/document/%EC%86%8C%ED%9
 ### 소스 코드
 ----------------------------------------------
 
-  * 안드로이드
+  * Android
+    - Activity
+      - MainActivity: https://github.com/64byte/Parking-Management/tree/master/Parking/src/main/java/com/story/parking/activity
+      - LoginActivity: https://github.com/64byte/Parking-Management/blob/master/Parking/src/main/java/com/story/parking/activity/LoginActivity.java
+  
+    - AppConfig
+      https://github.com/64byte/Parking-Management/blob/master/Parking/src/main/java/com/story/parking/AppConfig.java
+    
+    - RequestManager
+      https://github.com/64byte/Parking-Management/blob/master/Parking/src/main/java/com/story/parking/RequestManager.java
+      
+    - Util
+      https://github.com/64byte/Parking-Management/blob/master/Parking/src/main/java/com/story/parking/Util.java
   
   * nodejs (API 서버)
     - Stack: expressjs, mongodb
