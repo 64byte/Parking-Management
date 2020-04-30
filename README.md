@@ -22,6 +22,8 @@ https://github.com/64byte/Parking-Management/blob/master/document/%EC%86%8C%ED%9
   * 안드로이드
   
   * nodejs (API 서버)
+    - Stack: expressjs, mongodb
+  
     * models
       * car: https://github.com/64byte/Parking-Management/blob/master/server/models/car.js
       * user: https://github.com/64byte/Parking-Management/blob/master/server/models/user.js
