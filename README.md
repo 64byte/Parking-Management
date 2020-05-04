@@ -1,4 +1,4 @@
-# Parking-Management (Prototype) / (중)
+# Parking-Management (Prototype) / (수정중)
 주차 관리 시스템 (프로토타입) 프로젝트 (2017)
 
 ### 프로젝트 계획서
